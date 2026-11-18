@@ -1,16 +1,19 @@
 # [Project title]
 
-**Course:** Image & Signal Processing Option, INSA Lyon, [202X] 
+**Course:** Image & Signal Processing Option, INSA Lyon, [2026] 
 
-**Group:** [XX]
+**Group:** 4
 
-**Members:** [Name 1, Name 2, Name 3]
+**Members:** [Thi Trang Ngan Dao, Paul Serre de Pazanan]
 
 **Instructor:** [name]
 
 **Rules and grading:** see the [`info`](https://github.com/tdsi-project/info) repository
 
 ## 1. Problem
+
+Nous avons un pipeline de reconstruction d'une camera mono-pixel hyperspectral V2. Cette pipeline a une bonne résolution spectrale mais faible résolution spatiale. Nous voulons ajouter une fonction de pansharpening : fusionner le cube hyperspectral reconstruit avec une image nette de la meme scene pour améliorer la résolution spatiale sans déformer le spectre.
+
 [2–4 sentences: what task, why it matters, which data, which metrics.]
 
 ## 2. Methods
