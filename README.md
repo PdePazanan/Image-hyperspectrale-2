@@ -1,4 +1,4 @@
-# [Project title]
+# Pansharpening, caméra mono-pixel hyperspectrale 1D
 
 **Course:** Image & Signal Processing Option, INSA Lyon, [2026] 
 
