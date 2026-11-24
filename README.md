@@ -13,13 +13,15 @@
 ## 1. Problem
 
 Nous avons un pipeline de reconstruction d'une camera mono-pixel hyperspectral V2. Cette pipeline a une bonne résolution spectrale mais faible résolution spatiale. Nous voulons ajouter une fonction de pansharpening : fusionner le cube hyperspectral reconstruit avec une image nette de la meme scene pour améliorer la résolution spatiale sans déformer le spectre.
+Nous utilisons pour le projet les images en niveau de gris venant de la bibliothèque 
 
 [2–4 sentences: what task, why it matters, which data, which metrics.]
 
 ## 2. Methods
-- **Classical baseline:** [method, reference]
-- **Proposed method:** [method, reference]
-- **What we implemented ourselves vs. reused:** [be explicit]
+- **Classical baseline:** reconstruction par pseudo-inverse avec SPyRiT. Reconstruction avec différentes méthodes(Pseudoinverse, Tikhonov Regularisation & Denoising) sur des datas simulé et expérimentales.
+
+- **Proposed method:** Nous implémentons dans la baseline précedente une reconstruction à l'aide d'une méthode de pansharpening car nous voulons améliorer la reconstruction spatiale. 
+- **What we implemented ourselves vs. reused:** 
 
 ## 3. Results
 [Main table or figure, with the metric(s) and the test set. Link to the report for details.]
